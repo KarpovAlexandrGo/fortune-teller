@@ -6,8 +6,8 @@ import (
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
-
-const TOKEN = "7431216811:AAE2AVqRSySDMNgOVZfsTUNMybeWCdIHRnQ"
+// telegram token
+const TOKEN = "My token"
 
 var bot *tgbotapi.BotAPI
 var chatID int64
